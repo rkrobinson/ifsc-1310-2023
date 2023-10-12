@@ -156,7 +156,21 @@ html {
     gap:40px;
   }
   
+  aside .container a::last-of-type{
+color:#c0c0c0;
+display: block;
+text-align: center;
+font-size: 8rem;
+margin-top: 10px;
+  }
+
+  #colophon{
+    background-color:#800000
+    padding:10px;
+  }
   
+
+
     
   
   
