@@ -137,7 +137,7 @@ header.primary nav ul li a:hover{
 }
 
 #intro h2{
-  color: #3b638b;
+  color: #6025a3;
   border-bottom:1px dotted #c0c0c0;
 }
 
@@ -171,7 +171,7 @@ article.post .post-meta
 }
 
 article.post a{
-  color: #3b638b;
+  color: #997834;
 }
 
 article.post a:hover{
@@ -184,8 +184,50 @@ article.post img{
 }
 
 #practice h2{
-  color:#3b638b;
+  color:#215e24;
   border-bottom:1px solid #c0c0c0;
+}
+
+#practice h2{
+  color:#674467;
+  border-bottom:1px solid #c0c0c0;
+}
+
+
+table {
+  border: 1px solid hsl(0, 36%, 27%);
+  width: 100%;
+  border-collapse: collapse;
+  margin:20px 0;
+}
+
+.td{
+  width:20%;
+}
+
+caption{
+  font-weight:bold;
+  margin:10px;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+td:nth-child(n+2){
+  text-align:right;
+}
+
+tr:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+th {
+  background-color: #172635;
+  color: #fff;
+  padding: 10px;
+}
+td {
+  border: 1px solid #c0c0c0;
+  padding: 5px; 
 }
 
 
@@ -218,7 +260,7 @@ aside footer{
 }
 
 #colophon{
-  background-color:#800000;
+  background-color:#3b638b;
   padding:10px;
   color:#fff;
   text-align:center;
@@ -230,37 +272,4 @@ aside footer{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-/*  --------------- Media Queries -----------------  */
-
-@media screen and (max-width:600px){
-  header.primary nav ul{
-    flex-direction:column;
-    max-width:250px;
-    margin:auto;
-    gap:10px;
-  }
-  header.primary nav ul a{
-    display:block;
-  }
-  #content, aside .container {
-    flex-direction:column;
-  }
-  
-  #content img{
-    display:block;
-    margin:auto;
-  }
-  
-}
 
