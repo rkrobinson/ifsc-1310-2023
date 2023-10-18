@@ -58,7 +58,7 @@ body {
   Relative Path Example
   background-image:url("../img/kitten.jpg");
 
-  background-image: url("https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png");
+  background-image: url(");
     */
   background-repeat: no-repeat;
 }
