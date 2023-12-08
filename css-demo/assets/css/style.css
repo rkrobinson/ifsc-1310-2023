@@ -52,15 +52,23 @@ img {
 /*  --------------- Global Styles -----------------  */
 
 body {
-  font-family: "Gabarito", sans-serif;
-  margin: 0;
+  
+ 
+  font-family: 'Open Sans', sans-serif;
+  display: block;
+
+  
+  
+
+
+
   /*
   Relative Path Example
   background-image:url("../img/kitten.jpg");
 
   background-image: url("/workspaces/ifsc-1310-2023/css-demo/assets/img/flexbox-froggy.png");
     */
-  background-repeat: no-repeat;
+  background-color: rgba(102, 163, 153, 0.164);
 }
 
 header.primary {
